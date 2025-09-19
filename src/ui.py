@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-from src.app import build_or_get_vector_store, create_main_chain, load_vector_store
+from app import build_or_get_vector_store, create_main_chain, load_vector_store
 from langchain_core.messages import AIMessage, HumanMessage
 
 # --- UI Configuration ---
