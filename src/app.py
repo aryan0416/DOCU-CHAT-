@@ -4,7 +4,7 @@ from langchain_google_genai import GoogleGenerativeAI
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from chromadb import Chroma
+from langchain_chroma import Chroma
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.runnables import RunnablePassthrough, RunnableBranch
 from langchain_core.output_parsers import StrOutputParser
