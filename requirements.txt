@@ -2,7 +2,6 @@ streamlit
 langchain
 langchain-google-genai
 langchain-community
-langchain-huggingface
 sentence-transformers
 pypdf
 python-docx
