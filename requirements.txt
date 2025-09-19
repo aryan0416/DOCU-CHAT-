@@ -10,5 +10,6 @@ unstructured
 docx2txt
 pysqlite3-binary
 chromadb==0.4.15
-langchain-chroma
+
+
 
